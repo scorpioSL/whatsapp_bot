@@ -72,7 +72,7 @@ class WhatsappBot {
                           msg[Object.keys(msg)[0]].answers.length != undefined
                         ) {
                           expectedAnswers =
-                            "\n Please provide one of following answers.\n";
+                            "\nPlease provide one of following answers.(Answer number) Ex 1\n";
                           msg[Object.keys(msg)[0]].answers.forEach(
                             (element, index) => {
                               if (element.displayProperty != "hide")
@@ -204,7 +204,7 @@ class WhatsappBot {
                                   undefined
                                 ) {
                                   expectedAnswers =
-                                    "\n Please provide one of following answers.\n";
+                                    "\nPlease provide one of following answers.(Answer number) Ex 1\n";
                                   reply[Object.keys(reply)[0]].answers.forEach(
                                     (element, index) => {
                                       if (element.displayProperty != "hide")
@@ -794,7 +794,7 @@ class WhatsappBot {
                             msg[Object.keys(msg)[0]].answers.length != undefined
                           ) {
                             expectedAnswers =
-                              "\n Please provide one of following answers.\n";
+                              "\nPlease provide one of following answers.(Answer number) Ex 1\n";
                             msg[Object.keys(msg)[0]].answers.forEach(
                               (element, index) => {
                                 if (element.displayProperty != "hide")
